@@ -4,3 +4,4 @@ C:\Users\mrzamay\source\repos\lab3.3\lab3.3\bin\Debug\lab3.3.pdb
 C:\Users\mrzamay\source\repos\lab3.3\lab3.3\obj\Debug\lab3.3.csproj.CoreCompileInputs.cache
 C:\Users\mrzamay\source\repos\lab3.3\lab3.3\obj\Debug\lab3.3.exe
 C:\Users\mrzamay\source\repos\lab3.3\lab3.3\obj\Debug\lab3.3.pdb
+C:\Users\mrzamay\source\repos\lab3.3\lab3.3\obj\Debug\lab3.3.csproj.AssemblyReference.cache

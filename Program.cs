@@ -42,15 +42,18 @@ namespace lab3._3
                         speed = Convert.ToDouble(Console.ReadLine());
                         satelite[count] = new Satelite { sateliteName = name, weight = weight, heightOrbit = height, speed = speed };
                         count++;
-                        Console.WriteLine("--------------------------------------------------------------------------------------------------------------------------");
+                        Console.WriteLine("Название спутника\tМасса спутника\tВысота орбиты\tСкорость\tДлина окружности земли");
+                        Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
                         foreach (var i in satelite)
                         {
                             if (i!=null)
                             {
-                                Console.WriteLine($"Название спутника: {i.sateliteName}\tМасса спутника: {i.weight}\tВысота орбиты: {i.heightOrbit}\tСкорость: {i.speed}\tДлина окружности Земли: {Satelite.earthWidth}");
+                                //Console.WriteLine($"Название спутника: {i.sateliteName}\tМасса спутника: {i.weight}\tВысота орбиты: {i.heightOrbit}\tСкорость: {i.speed}\tДлина окружности Земли: {Satelite.earthWidth}");
+                                Console.WriteLine($"{i.sateliteName}\t\t\t{i.weight}\t\t{i.heightOrbit}\t\t{i.speed}\t\t{Satelite.earthWidth}");
+
                             }
                         }
-                        Console.WriteLine("--------------------------------------------------------------------------------------------------------------------------");
+                        Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
                     }
                 }
                 if (c == 2)
